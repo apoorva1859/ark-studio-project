@@ -1,0 +1,263 @@
+/* .billboard_section{
+    height: 50%;
+    width: 50%;
+} */
+html{
+    height: 200%;
+    position: absolute;
+    width: 100%;
+}
+body{
+    position: absolute;
+    height:200%;
+    width: 100%;
+}
+
+/* section 1 */
+.billboard_section{
+   height: 50%;
+   width: 100%;
+   box-sizing: border-box;
+   overflow: hidden;
+   position: absolute;
+   
+}
+
+.billboard_image{
+  
+    width: 70%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.transparent_nav{
+    position: fixed;
+    top: 0px;
+    width: 70%;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    
+    z-index: 1;
+    box-sizing: border-box;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 20;
+    z-index: 1;
+}
+.nav_bar{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+ul li  {
+    display:inline-block;
+    list-style-type:none;
+
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.cta{
+
+    width: 70%;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 26.5%;
+}
+.cta:hover{
+    background-color: lightgrey;
+}
+.cta_link{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(20, 200, 212);
+    padding: 5px 5px 5px 5px;
+    font-size: 11px;
+}
+/* section 2 ...........wrapper */
+.service_wrapper{
+    position: absolute;
+    display: block;
+    height: 40%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: 15%;
+    top: 15%;
+    box-sizing: border-box;
+    background-color:rgb (248,248,255) ;
+    z-index: -1;
+}
+
+#ark_studio_text{
+  margin-top: 60px;
+  position: relative;
+  display: block;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:lighter ;
+    
+}
+
+.seperator_img{
+
+    margin-left: 13%;
+    width: 72%;
+}
+.service_list{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-left: 0%;
+ }
+.service_list_item{
+    width: 20%;
+    box-sizing: border-box;
+    margin-right: 0%;
+    text-align: center;
+}
+.service_list_item img{
+    height: 30;
+    width: 30px;
+}
+.service_list .service_list_item h3{
+    font-size: 17px;
+}
+.service_list .service_list_item p{
+    font-size: 12px;
+}
+
+/* section 3 recent work */
+.recent_work{
+    position: absolute;
+    display: block;
+    height: 10%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-top: 60%;
+    box-sizing: border-box;
+    background-color: grey;
+    
+}
+.img_recent_work{
+    position: relative;
+    height: 100%;
+    width: 20%;  
+}
+/* section 4 testimonial part */
+.testimonial_wrapper{
+    position: absolute;
+    display: block;
+    height: 12%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-top: 80.3%;
+    box-sizing: border-box;
+    
+}
+.testimonial_wrapper h3{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial_wrapper ul{
+    width: 70%;
+    margin-left: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial_wrapper ul li {
+width: 30%;
+align-items: center;
+
+}
+.testimonial_wrapper ul li  img{
+    margin-left: 30%;
+    border-radius: 50%;
+}
+.testimonial_wrapper ul li p{
+    text-align: center;
+    font-size: 13px;
+}
+footer{
+    position: absolute;
+    display: block;
+    height: 12%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-top: 108%;
+    box-sizing: border-box;
+    background-color: #353535;
+    padding-top: 5%;
+   
+}
+.footer_widget {
+    display: flex;
+    justify-content: space-around;
+    background-color: #353535;
+   color: white;
+}
+
+.footer_widget > div {
+    width: 150px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer_widget > div > h1 {
+   
+    font-size: 17px;
+    
+}
+.comp_list  li {
+    margin-left: 0px;
+}
+.comp_list  a {
+   color: white;
+    padding: 0 0;
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+
+.sup_list   a {
+  color: white;
+    padding: 5px 0;
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.ark_detail p{
+    font-size: 15px;
+}
+
+.rights {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+   
+}
